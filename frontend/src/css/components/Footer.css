@@ -1,0 +1,27 @@
+.footer {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    background-color: #333;
+    position: absolute;
+    bottom: 0;
+}
+
+.footer div a{
+    font-size: 1rem;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+
+.footer div p{
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.footer div a:hover{
+    color: blue;
+    text-decoration: underline;
+}

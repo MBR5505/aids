@@ -7,18 +7,18 @@ const reviewSchema = new Schema({
     ref: "User",
     required: true,
   },
-  comment: {
-    type: String,
-    required: true,
-  },
-  rating: {
-    type: Boolean,
-    required: true,
-  },
   game: {
     type: mongoose.Schema.Types.ObjectId,
     ref: "Game",
     required: true,
+  },
+  comment: {
+    type: String,
+    required: true,
+  },
+  recomended:{
+    type: Boolean,
+    required: true
   },
   stars: {
     type: Number,
